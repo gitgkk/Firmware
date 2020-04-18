@@ -130,6 +130,7 @@ px4_add_romfs_files(
 	13009_vtol_spt_ranger
 	13010_claire
 	13012_convergence
+	13020_xe4t
 	13013_deltaquad
 	13200_generic_vtol_tailsitter
 

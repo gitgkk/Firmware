@@ -108,8 +108,11 @@ mavlink_hil_actuator_controls_t Simulator::actuator_controls_from_outputs()
 
 		case MAV_TYPE_QUADROTOR:
 		case MAV_TYPE_VTOL_QUADROTOR:
-		case MAV_TYPE_VTOL_TILTROTOR:
 			n = 4;
+			break;
+            
+		case MAV_TYPE_VTOL_TILTROTOR:
+			n = 8;
 			break;
 
 		case MAV_TYPE_VTOL_RESERVED2:
